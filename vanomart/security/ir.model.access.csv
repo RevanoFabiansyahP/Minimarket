@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_vanomart_kelompokbarang,access.vanomart.kelompokbarang,model_vanomart_kelompokbarang,,1,1,1,1
+access_vanomart_barang,access.vanomart.barang,model_vanomart_barang,,1,1,1,1
+access_vanomart_person,access.vanomart.person,model_vanomart_person,,1,1,1,1
+access_vanomart_kasir,access.vanomart.kasir,model_vanomart_kasir,,1,1,1,1
+access_vanomart_cleaningservice,access.vanomart.cleaningservice,model_vanomart_cleaningservice,,1,1,1,1
+access_vanomart_supplier,access.vanomart.supplier,model_vanomart_supplier,,1,1,1,1
+access_vanomart_penjualan,access.vanomart.penjualan,model_vanomart_penjualan,,1,1,1,1
+access_vanomart_detailpenjualan,access.vanomart.detailpenjualan,model_vanomart_detailpenjualan,,1,1,1,1
+access_vanomart_barangdatang,access.vanomart.barangdatang,model_vanomart_barangdatang,,1,1,1,1

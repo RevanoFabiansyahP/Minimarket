@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- vanomart.person tree view -->
+    <record id="vanomart_person_view_tree" model="ir.ui.view">
+        <field name="name">vanomart.person.view.tree</field>
+        <field name="model">vanomart.person</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="alamat"/>
+                <field name="tgl_lahir"/> 
+            </tree>
+        </field>
+    </record>
+    <!-- vanomart.person form view -->
+    <record id="vanomart_person_view_form" model="ir.ui.view">
+        <field name="name">vanomart.person.view.form</field>
+        <field name="model">vanomart.person</field>
+        <field name="arch" type="xml">
+            <form string="Nama">
+            <sheet>
+                <group name="nama" string="Nama">
+                    <field name="name"/> 
+                </group>
+                <group name="data" string="Data">
+                    <field name="alamat"/>
+                    <field name="tgl_lahir"/>
+                </group>
+            </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

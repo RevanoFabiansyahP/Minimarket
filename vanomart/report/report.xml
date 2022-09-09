@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo >
+
+    <!-- supllier.xlsx -->
+    <record id="report_supplier_xlsx" model="ir.actions.report">
+        <field name="name">Supplier Excel</field>
+        <field name="model">vanomart.supplier</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">vanomart.report_supplier_xlsx</field>
+        <field name="report_file">vanomart.report_supplier_xlsx</field>
+        <field name="binding_model_id" ref="model_vanomart_supplier"/>
+        <field name="binding_type">report</field>
+    </record>
+
+
+    <!-- penjualan.xlsx -->
+    <record id="report_penjualan_xlsx" model="ir.actions.report">
+        <field name="name">Penjualan Excel</field>
+        <field name="model">vanomart.penjualan</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">vanomart.report_penjualan_xlsx</field>
+        <field name="report_file">vanomart.report_penjualan_xlsx</field>
+        <field name="binding_model_id" ref="model_vanomart_penjualan"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <record id="report_penjualan_pdf" model="ir.actions.report">
+        <field name="name">Print Faktur</field>
+        <field name="model">vanomart.penjualan</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">vanomart.report_penjualan_pdf</field>
+        <field name="report_file">vanomart.report_penjualan_pdf</field>
+        <field name="binding_model_id" ref="model_vanomart_penjualan"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <!-- barang.xlsx -->
+    <record id="report_barang_xlsx" model="ir.actions.report">
+        <field name="name">Barang Excel</field>
+        <field name="model">vanomart.barang</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">vanomart.report_barang_xlsx</field>
+        <field name="report_file">vanomart.report_barang_xlsx</field>
+        <field name="binding_model_id" ref="model_vanomart_barang"/>
+        <field name="binding_type">report</field>
+    </record>
+    
+</odoo>
